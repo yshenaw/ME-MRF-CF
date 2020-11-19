@@ -1,8 +1,10 @@
 # Markov Random Fields for Collaborative Filtering (Memory Efficient)
 
+## With this version, MSD dataset can run on a laptop.
+
 This notebook provides a **memory efficient version** in Python 3.7 of the algorithm outlined in the paper 
 "[Markov Random Fields for Collaborative Filtering](https://arxiv.org/abs/1910.09645)" 
-at the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada. **With this version, MSD dataset can run on a laptop.**
+at the 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada. 
 
 For reproducibility, the experiments utilize publicly available [code](https://github.com/dawenl/vae_cf) for pre-processing three popular data-sets and for evaluating the learned model. That code accompanies the paper "[Variational Autoencoders for Collaborative Filtering](https://arxiv.org/abs/1802.05814)" by Dawen Liang et al. at The Web Conference 2018. While the code for the Movielens-20M data-set was made publicly available, the code for pre-processing the other two data-sets can easily be obtained by modifying their code as described in their paper.
 
